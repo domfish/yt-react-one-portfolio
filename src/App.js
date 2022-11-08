@@ -8,8 +8,7 @@ import SocialLinks from "./component/SocialLinks";
 
 function App() {
   return (
-    < div>
-
+    < >
       <NavBar></NavBar>
       <Home></Home>
       <About></About>
@@ -17,9 +16,7 @@ function App() {
       <Experience></Experience>
       <Contact></Contact>
       <SocialLinks></SocialLinks>
-
-
-    </div>
+    </>
   );
 }
 

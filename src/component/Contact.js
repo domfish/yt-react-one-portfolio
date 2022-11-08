@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 py-4">
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-                <div className="" >
+                <div className="pb-8" >
                     <h2 className='text-4xl border-gray-500 inline font-bold border-b-4 text-white'>
                         Contact
                     </h2>
@@ -23,24 +23,24 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="flex justify-center items-center ">
-                    <form action="https://getform.io/f/eac8cd8a-92b3-427b-a27f-33f3ac043fa3" method="POST" className="flex flex-col w-full md:w-1/2 ">
+                    <form action="https://getform.io/f/eac8cd8a-92b3-427b-a27f-33f3ac043fa3" method="POST" className="flex flex-col w-full sm:w-1/2 ">
                         <input
                             type='text'
                             name='name'
                             placeholder="Enter your name"
-                            className="p-2 bg-trasparent  border-2 rounded-md text-white focus:outline-none my-6"
+                            className="p-2 bg-trasparent  border-2 rounded-md  focus:outline-none my-6"
                             onChange={handleChange} />
                         <input
                             type='email'
                             name='email'
                             placeholder="Enter your email"
-                            className="p-2 bg-trasparent  border-2 rounded-md text-white focus:outline-none mb-6" />
+                            className="p-2 bg-trasparent  border-2 rounded-md  focus:outline-none mb-6" />
                         <textarea
                             type='text'
                             name='message'
                             placeholder="Enter your message"
                             rows="10"
-                            className="p-2 bg-trasparent  border-2 rounded-md text-white focus:outline-none"
+                            className="p-2 bg-trasparent  border-2 rounded-md  focus:outline-none"
                         ></textarea>
                         <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 ">
                             let's talk
