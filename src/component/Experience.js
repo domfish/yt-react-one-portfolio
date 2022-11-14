@@ -83,13 +83,13 @@ const Experience = () => {
                         These are the technologies i've worked with :
                     </p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
+                <div className='w-full grid grid-cols-4 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
                     {
                         techno.map(({ id, title, src, style }) => (
 
                             <div key={id} className={`shadow-md hover:scale-110 duration-500 py-5 rounded-lg ${style}`}>
                                 <img className='w-20 mx-auto' src={src} alt="" />
-                                <p className='text-white'>{title}</p>
+                                <p className='hidden  text-white '>{title}</p>
                             </div>
                         ))
                     }
