@@ -1,4 +1,3 @@
-import landing from '../assetes/landing.jpg'
 import appWeather from '../assetes/app weather.jpg'
 import booking from '../assetes/booking.jpg'
 
@@ -6,7 +5,7 @@ const Portfolio = ()=>{
     const work =[
         {
             id:1,
-            src : landing
+            src :
         },
         {
             id:2,
