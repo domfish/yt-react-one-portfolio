@@ -4,10 +4,6 @@ import booking from '../assetes/booking.jpg'
 const Portfolio = ()=>{
     const work =[
         {
-            id:1,
-            src :
-        },
-        {
             id:2,
             src : appWeather
         },
